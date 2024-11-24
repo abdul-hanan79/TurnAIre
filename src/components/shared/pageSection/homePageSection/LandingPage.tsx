@@ -85,7 +85,7 @@ router.push("/dashboard")
             loading="lazy"
             height={200}
             width={200}
-            src={ICONS.airoplan}
+            src={ICONS.AIROPLAN}
             alt="Decorative element"
             className="object-contain z-10 self-end -mt-9 mr-11 aspect-[1.08] w-[26px]"
           />

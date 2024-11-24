@@ -2,7 +2,7 @@ import { MenuCard } from "@/components/template/cards/MenuCard";
 import { TravelCard } from "@/components/template/cards/TravelCard";
 import { SearchBar } from "@/components/template/form/SearchBar";
 import { ICONS } from "../../../../../public";
-import { CircleStackIcon, UserCircleIcon, UserIcon } from "@heroicons/react/16/solid";
+import { CircleStackIcon, UserCircleIcon } from "@heroicons/react/16/solid";
 const travelDestinations = [
   {
     imageSrc:
