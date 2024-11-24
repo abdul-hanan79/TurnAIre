@@ -1,7 +1,6 @@
 import { TravelCard } from "@/components/template/cards/TravelCard";
 import { SearchBar } from "@/components/template/form/SearchBar";
 import { NavigationItemProps } from "@/types";
-import Image from "next/image";
 
 export const NavigationItem: React.FC<NavigationItemProps> = ({
   icon,
