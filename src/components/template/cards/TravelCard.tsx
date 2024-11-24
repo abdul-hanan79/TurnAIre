@@ -10,7 +10,7 @@ export const TravelCard: React.FC<TravelCardProps> = ({
   duration
 }) => {
   return (
-    <article className="flex flex-col grow pb-2 w-full rounded-xl shadow-[0px_10px_13px_rgba(0,0,0,0.13)] " >
+    <article className="flex flex-col grow pb-2 w-full rounded-xl shadow-[0px_10px_13px_rgba(0,0,0,0.13)] hover:shadow-[0px_10px_13px_rgba(0, 0, 0, 0.715)] hover:-translate-y-1 transition duration-500 ease-in-out " >
       <img
         loading="lazy"
         src={imageSrc}
