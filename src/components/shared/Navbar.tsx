@@ -49,7 +49,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="md:fixed md:bottom-2 md:left-[50%] md:transform md:-translate-x-1/2 flex z-10  gap-5 justify-evenly items-start px-8 pt-3.5 pb-6 mt-11 md:w-[70%] w-full border-t shadow-xl  bg-gray-200 rounded-3xl ">
+    <nav className="md:fixed md:bottom-5 md:left-[50%] md:transform md:-translate-x-1/2 flex z-10  gap-5 justify-evenly items-center py-1.5 md:w-[35%] w-full border-t shadow-xl  bg-gray-200 rounded-3xl ">
       {navigationItems.map((item, index) => (
         <NavigationItem key={index} {...item} />
       ))}

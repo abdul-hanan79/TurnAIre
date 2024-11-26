@@ -9,7 +9,7 @@ interface MenuCardProps {
 export const MenuCard: React.FC<MenuCardProps> = ({ label, icon }) => {
   console.log("🚀 ~ icon:", icon)
   return (
-    <nav className="flex flex-col md:text-xl text-lg tracking-wide leading-6 text-green-800 whitespace-nowrap">
+    <nav className="flex flex-col md:text-xl text-lg tracking-wide leading-6  text-green-800 whitespace-nowrap">
       <div
      
         className="rounded-full bg-secondary mx-auto p-3"

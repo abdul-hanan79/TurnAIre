@@ -1,6 +1,6 @@
 import { MenuCard } from "@/components/template/cards/MenuCard";
 import { TravelCard } from "@/components/template/cards/TravelCard";
-import { SearchBar } from "@/components/template/form/SearchBar";
+import { TravelAssistant } from "@/components/template/form/TravelAssistant";
 import { ICONS } from "../../../../../public";
 import { CircleStackIcon, UserCircleIcon } from "@heroicons/react/16/solid";
 const travelDestinations = [
@@ -66,7 +66,7 @@ const menuItems = [
 
 export const TravelDashboard: React.FC = () => {
   return (
-    <main className="flex overflow-hidden flex-col pt-10 mx-auto w-full  bg-neutral-100  ">
+    <main className="flex overflow-hidden flex-col pt-10 mx-auto w-full  bg-neutral-100 ">
       <section className="flex flex-col items-start px-4 w-full">
         <header className="flex w-full justify-between ">
           <div className="flex flex-col">
@@ -81,7 +81,7 @@ export const TravelDashboard: React.FC = () => {
           />
         </header>
 
-        <SearchBar />
+        <TravelAssistant />
         <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-6 mt-5 text-center w-full">
           {menuItems.map((item, index) => (
             <MenuCard
@@ -91,7 +91,7 @@ export const TravelDashboard: React.FC = () => {
             />
           ))}
         </section>
-        <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 mt-5 p-2 ">
+        <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4  gap-6   p-2 my-10 ">
           {travelDestinations.map((destination, index) => (
             <div key={index} className="flex flex-col">
               <TravelCard {...destination} />
